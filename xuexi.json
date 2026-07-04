@@ -2,6 +2,83 @@
   "spider": "./haji.jar",
   "wallpaper": "免费接口，仅限自用",
   "sites": [
+      {
+      "key": "少儿教育",
+      "name": "🐰综合┃启蒙",
+      "type": 3,
+      "jar": "./lib/ketang.jar",
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {
+        "json": "./lib/少儿教育.json",
+        "cookie": "./lib/cookie.txt"
+      }
+    },
+    {
+      "key": "儿歌",
+      "name": "🐰儿歌┃识字┃英语┃古诗",
+      "type": 3,
+      "jar": "./lib/ketang.jar",
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {
+        "json": "./lib/儿歌.json",
+        "cookie": "./lib/cookie.txt"
+      }
+    },
+    {
+      "key": "小灯塔科学",
+      "name": "🐰小灯塔┃专区",
+      "type": 3,
+      "jar": "./lib/ketang.jar",
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {
+        "json": "./lib/小灯塔科学.json",
+        "cookie": "./lib/cookie.txt"
+      }
+    },
+     {
+      "key": "csp_XYQHiker_兔小贝",
+      "name": "🐰兔子┃启蒙",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/兔小贝.json",
+      "jar": "./lib/ymz.jar"
+    },
+    {
+      "key": "csp_XYQHiker_兔小贝2",
+      "name": "🐰兔贝┃启蒙",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/兔小贝2.json",
+      "jar": "./lib/ymz.jar"
+    }
     {
       "key": "csp_小学",
       "name": "🧒小学┃课堂🧒",
@@ -60,28 +137,6 @@
       "filterable": 1,
       "ext": "./lib/播视童趣.json",
       "jar": "./lib/csp_XYQHiker_兔小贝.jar"
-    },
-    {
-      "key": "csp_XYQHiker_兔小贝",
-      "name": "🐰兔子┃启蒙",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/兔小贝.json",
-      "jar": "./lib/ymz.jar"
-    },
-    {
-      "key": "csp_XYQHiker_兔小贝2",
-      "name": "🐰兔贝┃启蒙",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/兔小贝2.json",
-      "jar": "./lib/ymz.jar"
     }
   ],
   "parses": [
