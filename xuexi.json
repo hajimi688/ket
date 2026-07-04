@@ -7,7 +7,7 @@
       "name": "🧒小学┃课堂🧒",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/bh2601251.jar",
+      "jar": "./lib/hajimi.jar",
       "playerType": 2,
       "ext": {
         "json": "https://img2.gelonghui.com/library/a1140-144855fe-3eaa-44f3-b689-6812c233de54null",
@@ -23,7 +23,7 @@
       "name": "🧒初中┃课堂🧒",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/bh2601251.jar",
+      "jar": "./lib/hajimi.jar",
       "playerType": 2,
       "ext": {
         "json": "https://img2.gelonghui.com/library/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull",
@@ -39,7 +39,7 @@
       "name": "🧒高中┃课堂🧒",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/bh2601251.jar",
+      "jar": "./lib/hajimi.jar",
       "playerType": 2,
       "ext": {
         "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
