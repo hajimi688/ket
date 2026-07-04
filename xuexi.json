@@ -4,7 +4,7 @@
   "sites": [
       {
       "key": "少儿教育",
-      "name": "🐰综合┃启蒙",
+      "name": "综合┃启蒙",
       "type": 3,
       "jar": "./ketang.jar",
       "api": "csp_Bili",
@@ -22,7 +22,7 @@
     },
     {
       "key": "儿歌",
-      "name": "🐰儿歌┃识字┃英语┃古诗",
+      "name": "儿歌┃识字┃英语┃古诗",
       "type": 3,
       "jar": "./ketang.jar",
       "api": "csp_Bili",
@@ -40,7 +40,7 @@
     },
     {
       "key": "小灯塔科学",
-      "name": "🐰小灯塔┃专区",
+      "name": "小灯塔┃专区",
       "type": 3,
       "jar": "./ketang.jar",
       "api": "csp_Bili",
@@ -59,7 +59,7 @@
     },
     {
       "key": "csp_XYQHiker_童趣",
-      "name": "🧒幼儿┃童趣🧒",
+      "name": "幼儿┃童趣",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -70,7 +70,7 @@
     },
      {
       "key": "csp_XYQHiker_兔小贝",
-      "name": "🐰兔子┃启蒙",
+      "name": "兔子┃启蒙",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -81,7 +81,7 @@
     },
     {
       "key": "csp_XYQHiker_兔小贝2",
-      "name": "🐰兔贝┃启蒙",
+      "name": "兔贝┃启蒙",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -90,52 +90,58 @@
       "ext": "./lib/兔小贝2.json",
       "jar": "./lib/ymz.jar"
     },
-    {
-      "key": "csp_小学",
-      "name": "🧒小学┃课堂🧒",
+     {
+      "key": "小学课堂",
+      "name": "小学┃课堂",
       "type": 3,
+      "jar": "./ketang.jar",
       "api": "csp_Bili",
-      "jar": "./lib/hajimi.jar",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/a1140-144855fe-3eaa-44f3-b689-6812c233de54null",
-        "cookie": ""
-      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
       "style": {
         "type": "rect",
-        "ratio": 1.333
+        "ratio": 1.597
+      },
+      "ext": {
+        "json": "./lib/小学课堂.json",
+        "cookie": "./lib/cookie.txt"
       }
     },
     {
-      "key": "csp_初中",
-      "name": "🧒初中┃课堂🧒",
+      "key": "初中课堂",
+      "name": "初中┃课堂",
       "type": 3,
+      "jar": "./ketang.jar",
       "api": "csp_Bili",
-      "jar": "./lib/hajimi.jar",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull",
-        "cookie": ""
-      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
       "style": {
         "type": "rect",
-        "ratio": 1.333
+        "ratio": 1.597
+      },
+      "ext": {
+        "json": "./lib/初中课堂.json",
+        "cookie": "./lib/cookie.txt"
       }
     },
     {
-      "key": "csp_高中",
-      "name": "🧒高中┃课堂🧒",
+      "key": "高中教育",
+      "name": "高中┃课堂",
       "type": 3,
+      "jar": "./ketang.jar",
       "api": "csp_Bili",
-      "jar": "./lib/hajimi.jar",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
-        "cookie": ""
-      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
       "style": {
         "type": "rect",
-        "ratio": 1.333
+        "ratio": 1.597
+      },
+      "ext": {
+        "json": "./lib/高中课堂.json",
+        "cookie": "./lib/cookie.txt"
       }
     }
   ],
